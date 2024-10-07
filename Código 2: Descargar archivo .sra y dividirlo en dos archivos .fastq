@@ -1,0 +1,6 @@
+prefetch -h 
+prefetch --max-size 50G --option-file sra_accessions_1.txt  #;
+rm -r ERR12389866/ ERR12543675/  ##Borrar las carpetas pero con cuidado
+fasterq-dump --split-files *.sra #separar en forward y reverse;
+gzip *fastq ;
+fastqc *

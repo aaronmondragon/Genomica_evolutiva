@@ -1,0 +1,14 @@
+# instalacion de artemis #
+conda create -n art
+conda activate art
+conda install bioconda::artemis
+
+#Invocar el programa con:
+
+art
+
+#Dentro del programa con interfaz gráfica cargar en:
+#file > open file manager > cargar tu archivo de anotaicion .gff
+#en la ventana inferior aparecen los CDS haz click derecho y coloca show gene names 
+
+

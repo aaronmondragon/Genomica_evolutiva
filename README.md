@@ -2,6 +2,7 @@
 Clases de la Maestria en Bioinformática y ciencias ómicas
 
 #Código 1: Descargar sratoolkit
+
 mkdir genomas;
 grep ">" genomas.fasta ;
 ls ;
